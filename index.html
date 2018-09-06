@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="libs/jquery-3.1.1.min.js"></script>
+    <script src="./js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <title>RPG Battle Simulator</title>
+  </head>
+  <body>
+    <h1>RPG Battle Simulator</h1>
+    <div id="main">
+        <section>
+            <h2>Fight</h2>
+            <p>(Based on character's strength)</p>
+            <img src="images/strength.png">
+            <p id="fight1"></p>
+            <p id="fight2"></p>
+            <p id="fight3"></p>
+        </section>
+        <section>
+            <h2>A game of chess</h2>
+            <p>(Based on character's intelligence)</p>
+            <img src="images/chess.png">
+            <p id="chess1"></p>
+            <p id="chess2"></p>
+            <p id="chess3"></p>
+        </section>
+        <section>
+            <h2>A flip of coin</h2>
+            <p>(Based on character's luck)</p>
+            <img src="images/coin.png">
+            <p id="coin1"></p>
+            <p id="coin2"></p>
+            <p id="coin3"></p>
+        </section>
+    </div>
+    <input type="button" value="Try Again" onClick="window.location.reload()">
+  </body>
+</html>

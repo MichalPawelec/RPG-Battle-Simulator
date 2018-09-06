@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#9afc8d, #1bad20);
+    color: white;
+    text-align: center;
+    margin: 5vh;
+    font-family: 'Black Ops One', Arial, sans-serif;
+    font-size: 1.4vw;
+}
+
+#main {
+    display: flex;
+}
+
+h1 {
+    margin: 8vh;
+}
+
+section {
+
+    width: 33.3vw;
+}
+
+p {
+    padding: 2vh;
+}
+
+input {
+    margin: 5vh;
+    font-size: 1.4vw;
+    color: white;
+    background: #1bad20;
+    font-family: 'Black Ops One', Arial, sans-serif;
+}
