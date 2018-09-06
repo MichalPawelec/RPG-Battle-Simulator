@@ -6,6 +6,8 @@ There are three classes (orc, elf and dwarf). Each one has basic stats, everytim
 
 You can play it here: https://michalpawelec.github.io/RPG-Battle-Simulator/
 
+![How it looks](./images/screen.png)
+
 ## Used technologies and tools:
 * JQuery
 * JavaScript (ES6)
